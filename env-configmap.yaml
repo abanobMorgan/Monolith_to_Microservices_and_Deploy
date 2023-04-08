@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-configmap
+data:
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: crd.chsqstaiaarm.us-east-1.rds.amazonaws.com
+  URL: http://localhost:8100
+  AWS_BUCKET: s3db-000472196561	
+  AWS_REGION:  us-east-1
+  AWS_PROFILE: default
+  JWT_SECRET: testing
+
+
+
